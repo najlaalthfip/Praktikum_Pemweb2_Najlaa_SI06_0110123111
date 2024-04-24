@@ -57,7 +57,7 @@ if (isset($_POST["submit"])) {
                             <h2 class="text-center">Form Dokter</h2>
                             <form action="add.php" method="POST">
                                 <div class="form-group row">
-                                    <label for="kode" class="col-4 col-form-label">Nama</label>
+                                    <label for="nama" class="col-4 col-form-label">Nama</label>
                                     <div class="col-8">
                                         <input id="nama" name="nama" type="text" class="form-control">
                                     </div>
@@ -84,25 +84,25 @@ if (isset($_POST["submit"])) {
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="nama" class="col-4 col-form-label">Kategori</label>
+                                    <label for="kategori" class="col-4 col-form-label">Kategori</label>
                                     <div class="col-8">
                                         <input id="kategori" name="kategori" type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="nama" class="col-4 col-form-label">Telpon</label>
+                                    <label for="telpon" class="col-4 col-form-label">Telpon</label>
                                     <div class="col-8">
                                         <input id="telpon" name="telpon" type="number" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="nama" class="col-4 col-form-label">Alamat</label>
+                                    <label for="alamat" class="col-4 col-form-label">Alamat</label>
                                     <div class="col-8">
                                         <input id="alamat" name="alamat" type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="pasien_id" class="col-4 col-form-label">Unit Kerja ID</label>
+                                    <label for="unit_kerja_id" class="col-4 col-form-label">Unit Kerja ID</label>
                                     <div class="col-8">
                                         <?php
                                         $sqljenis = "SELECT * FROM unit_kerja";
