@@ -56,31 +56,31 @@ if (isset($_POST["submit"])) {
                             <h2 class="text-center">Form Hasil Periksa Pasien</h2>
                             <form action="add.php" method="POST">
                                 <div class="form-group row">
-                                    <label for="kode" class="col-4 col-form-label">Tanggal</label>
+                                    <label for="tanggal" class="col-4 col-form-label">Tanggal</label>
                                     <div class="col-8">
                                         <input id="tanggal" name="tanggal" type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="nama" class="col-4 col-form-label">Berat</label>
+                                    <label for="berat" class="col-4 col-form-label">Berat</label>
                                     <div class="col-8">
                                         <input id="berat" name="berat" type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="tmp_lahir" class="col-4 col-form-label">Tinggi</label>
+                                    <label for="tinggi" class="col-4 col-form-label">Tinggi</label>
                                     <div class="col-8">
                                         <input id="tinggi" name="tinggi" type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="nama" class="col-4 col-form-label">Tensi</label>
+                                    <label for="tensi" class="col-4 col-form-label">Tensi</label>
                                     <div class="col-8">
                                         <input id="tensi" name="tensi" type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="nama" class="col-4 col-form-label">Keterangan</label>
+                                    <label for="keterangan" class="col-4 col-form-label">Keterangan</label>
                                     <div class="col-8">
                                         <input id="keterangan" name="keterangan" type="text" class="form-control">
                                     </div>
